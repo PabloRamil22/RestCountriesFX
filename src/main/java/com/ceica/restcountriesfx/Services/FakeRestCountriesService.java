@@ -26,7 +26,6 @@ public class FakeRestCountriesService implements IResCountries{
 
     @Override
     public CountryDTO getCountryByName(String name) {
-        List<CountryDTO> countryDTOList=new ArrayList<>();
         CountryDTO countryDTO=new CountryDTO();
         countryDTO.setName("Guinea Ecuatorial");
         countryDTO.setCapital("Malabo");
@@ -34,6 +33,6 @@ public class FakeRestCountriesService implements IResCountries{
         countryDTO.setCoin("Franco CFA de África Central");
         countryDTO.setPopulation(1634000);
         countryDTO.setFlag("https://es.vecteezy.com/png/12301134-bandera-de-guinea-ecuatorial-png");
-        return (CountryDTO) countryDTOList;
+        return countryDTO;
     }
 }
