@@ -19,7 +19,7 @@ public class FakeRestCountriesService implements IResCountries{
         countryDTO.setName("Guinea Ecuatorial");
         countryDTOList.add(countryDTO);
         CountryDTO countryDTO1=new CountryDTO();
-        countryDTO.setName("Camboya");
+        countryDTO1.setName("Camboya");
         countryDTOList.add(countryDTO1);
         return countryDTOList;
     }
@@ -32,7 +32,7 @@ public class FakeRestCountriesService implements IResCountries{
         countryDTO.setRegion("Oeste");
         countryDTO.setCoin("Franco CFA de África Central");
         countryDTO.setPopulation(1634000);
-        countryDTO.setFlag("https://es.vecteezy.com/png/12301134-bandera-de-guinea-ecuatorial-png");
+        countryDTO.setFlag("https://flagcdn.com/w2560/gq.png");
         return countryDTO;
     }
 }
