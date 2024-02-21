@@ -35,4 +35,11 @@ public class FakeRestCountriesService implements IResCountries{
         countryDTO.setFlag("https://flagcdn.com/w2560/gq.png");
         return countryDTO;
     }
+
+    @Override
+    public CountryDTO getCountryByCca3(String cca3) {
+        return null;
+    }
+
+
 }

@@ -1,6 +1,7 @@
 package com.ceica.restcountriesfx.Models;
 
-import java.util.Currency;
+
+import java.util.Map;
 
 public class CountryDAO {
     public Name name;
@@ -8,6 +9,8 @@ public class CountryDAO {
     public String region;
     public int population;
     public Flag flags;
-    public Currencies currencies;
+    public Map<String, Currency> currencies;
+
+    public String cca3;
 }
 

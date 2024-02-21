@@ -44,9 +44,10 @@ public void initialize() {
                 countryColum.setItems(observableList);
             }
         });
+        //Evento para poder clickar en la interfaz de JavaFX
         countryColum.setOnMouseClicked(e -> {
-            String country = countryColum.getSelectionModel().getSelectedItem().getName();
-            CountryDTO countryDTO = fakeRestCountriesService.getCountryByName(country);
+            String countryCca3 = countryColum.getSelectionModel().getSelectedItem().getCca3();
+            CountryDTO countryDTO = fakeRestCountriesService.getCountryByCca3(countryCca3);
             txtCountryName.setText(countryDTO.getName());
             txtCountryCapital.setText(countryDTO.getCapital());
             txtCountryPopulation.setText(String.valueOf(countryDTO.getPopulation()));
@@ -54,6 +55,17 @@ public void initialize() {
             Image image = new Image(countryDTO.getFlag());
             imgFlag.setImage(image);
 
+        });
+        //Evento para navegar en la interfaz mediante las flechas del teclado sube arriba y abajo
+        countryColum.setOnKeyPressed(e ->{
+            String countryCca3 = countryColum.getSelectionModel().getSelectedItem().getCca3();
+            CountryDTO countryDTO = fakeRestCountriesService.getCountryByCca3(countryCca3);
+            txtCountryName.setText(countryDTO.getName());
+            txtCountryCapital.setText(countryDTO.getCapital());
+            txtCountryPopulation.setText(String.valueOf(countryDTO.getPopulation()));
+            txtCountryCoin.setText(countryDTO.getCoin());
+            Image image = new Image(countryDTO.getFlag());
+            imgFlag.setImage(image);
         });
 
         countryNameColum.setCellValueFactory(cell -> new SimpleStringProperty(cell.getValue().getName()));
