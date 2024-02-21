@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b95ace6-20a8-4b9e-b7e9-73a0c41d80a3" name="Changes" comment="Enlace con la api online de paises">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Models/Currency.java" afterDir="false" />
+    <list default="true" id="7b95ace6-20a8-4b9e-b7e9-73a0c41d80a3" name="Changes" comment="Aplicación finalizada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Models/CountryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Models/CountryDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Models/CountryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Models/CountryDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Models/Currencies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/RestCountriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/RestCountriesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Services/FakeRestCountriesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Services/FakeRestCountriesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Services/IResCountries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Services/IResCountries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Services/RestCountriesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Services/RestCountriesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ceica/restcountriesfx/restcountries.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ceica/restcountriesfx/restcountries.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,13 +123,33 @@
       <option name="project" value="LOCAL" />
       <updated>1708454941242</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Aplicación finalizada">
+      <option name="closed" value="true" />
+      <created>1708536583440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708536583441</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nuevo proyecto" />
     <MESSAGE value="FakeRestCountriesService" />
     <MESSAGE value="Enlace con la api online de paises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enlace con la api online de paises" />
+    <MESSAGE value="Aplicación finalizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aplicación finalizada" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/RestCountriesApplication.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
