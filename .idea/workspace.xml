@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7b95ace6-20a8-4b9e-b7e9-73a0c41d80a3" name="Changes" comment="Aplicación finalizada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ceica/restcountriesfx/restcountries.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ceica/restcountriesfx/restcountries.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Services/RestCountriesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/Services/RestCountriesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -51,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "httpClient",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
@@ -131,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708536583441</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Aplicación finalizada">
+      <option name="closed" value="true" />
+      <created>1708537670566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708537670566</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,16 +154,5 @@
     <MESSAGE value="Enlace con la api online de paises" />
     <MESSAGE value="Aplicación finalizada" />
     <option name="LAST_COMMIT_MESSAGE" value="Aplicación finalizada" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ceica/restcountriesfx/RestCountriesApplication.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
